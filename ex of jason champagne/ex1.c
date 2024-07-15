@@ -1,3 +1,24 @@
+/*
+Ex 2 :  
+> Ecrire un  programme de rendu de monnaie.En saissant le montant total  des achats 
+puis la somme donnée, indiquer  la  monnaie a rendre  ( billets de 20 euros, 10, 5, et pieces  de 2 euros, 1).
+> Indications  :
+-S'assurer que la somme donnée est bien supérieure  à la somme des achats
+-Gérer  le cas ou on aurait payé un montant égal aux achats
+-Rendre  le moins  de billets/pièces possible (25 euros de monnaie -> 1 billet de 20 euros + 1 billet de 5 euros)
+-L'opérateur %  (modulo) sera utile  pour cet exercice.
+
+> Write a change program. By entering the total amount of purchases 
+then the sum given, indicate the change to be returned  ( notes of 20 euros, 10, 5, and pieces of 2 euros, 1).
+> Indications:
+-Ensure that the given amount is well above the sum of purchases
+-Manage case where an equal amount was paid for purchases
+-Make as few banknotes/coins as possible (25 euro change -> 1 20 euro note + 1 5 euro note)
+-The %  (modulo) operator will be useful for this exercise.
+
+Source : FormationVideo by Jason Champagne
+*/
+
 #include <stdio.h>
 int main(void)
 {
